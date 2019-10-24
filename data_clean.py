@@ -4,13 +4,13 @@ from tqdm import tqdm
 
 input = []
 output = []
-root_dir = '/home/panotech/dataset/20190828_TVシナリオ応答対'
+root_dir = '/home/ys1/dataset/20190828_TVシナリオ応答対'
 input_output_file_name = os.path.join(root_dir, 'tv_scenario_corpus.txt')
 input_file_name = os.path.join(root_dir, 'input.txt')
 output_file_name = os.path.join(root_dir, 'output.txt')
 input_output_file = open(input_output_file_name, 'r')
 
-root_dir_nmt = '/home/panotech/dataset/KDDI_chatbot'
+root_dir_nmt = '/home/ys1/dataset/KDDI_chatbot'
 file_train_input = os.path.join(root_dir_nmt, 'train.ask')
 file_train_output = os.path.join(root_dir_nmt, 'train.ans')
 file_val_input = os.path.join(root_dir_nmt, 'val.ask')
