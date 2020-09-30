@@ -304,8 +304,8 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
           en_dev_ids_path, fr_dev_ids_path,
           en_vocab_path, fr_vocab_path)
 def prepare_my_data(data_dir, fr_vocabulary_size, tokenizer=None):
-    input_path = os.path.join(data_dir, "train.ask")
-    output_path = os.path.join(data_dir, "train.ans")
+    input_path = os.path.join(data_dir, "train_val_cleaned.ask")
+    output_path = os.path.join(data_dir, "train_val_cleaned.ans")
     fr_vocab_path = os.path.join(data_dir, "output.vocab%d.fr" % fr_vocabulary_size)
     # en_vocab_path = os.path.join(data_dir, "input.vocab%d.en" % en_vocabulary_size)
 
