@@ -18,7 +18,7 @@ file_val_output = os.path.join(root_dir_nmt, 'val.ans')
 file_test_input = os.path.join(root_dir_nmt, 'test.ask')
 file_test_output = os.path.join(root_dir_nmt, 'test.ans')
 
-delete_words_list = ['そう な ん', 'そう です', 'そうです']
+delete_words_list = ['そう な ん', 'そう なん', 'そう です', 'そうです']
 
 def write_file(file):
     delete_index_list_copy = delete_index_list.copy()
